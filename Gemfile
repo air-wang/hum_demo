@@ -9,12 +9,15 @@ gem 'bootstrap-sass', '2.0.4'
 
 gem 'mysql2'
 
+gem 'bcrypt-ruby'
+
 # Development and test envoriment setting.
 group :development, :test do
   gem 'rspec-rails'
   gem 'guard-rspec'
   gem 'guard-spork', '1.2.0'
   gem 'spork', '0.9.2'
+  gem 'annotate', '2.5.0'
 end
 
 
