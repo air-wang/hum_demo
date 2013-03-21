@@ -38,5 +38,5 @@ production:
   database: hum_demo_production
   pool: 5
   username: root
-  password:
+  password: wawsy97
   socket: /var/run/mysqld/mysqld.sock
