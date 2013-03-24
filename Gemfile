@@ -11,6 +11,11 @@ gem 'mysql2'
 
 gem 'bcrypt-ruby'
 
+gem 'faker'
+
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 # Development and test envoriment setting.
 group :development, :test do
   gem 'rspec-rails'
